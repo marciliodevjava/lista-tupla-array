@@ -17,6 +17,27 @@ for idade in idades:
 
 print()
 
-for ida in range(1,11):
+for ida in range(1, 11):
     print(ida)
 
+if 28 in idades:
+    idades.remove(28)
+else:
+    print("Não foi possivel remover")
+
+lista_numeros = [0, 26, 89, 90]
+
+idades.append(lista_numeros)
+
+print(idades)
+print(idades[5][1])
+
+numeros = [3, 5, 9, 12]
+lista = [39, 78, 48, 58, numeros]
+
+idades.append(lista)
+
+print(idades)
+print(idades[6][0])
+print(idades[6][4])
+print(idades[6][4][3])
