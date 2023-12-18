@@ -53,10 +53,13 @@ num.extend(list)
 print(num)
 print()
 
-lista_idade = [22, 36, 25, 14]
+lista_idade = [22, 36, 25, 141, 41, 59, 60]
 print(lista_idade)
 print()
 
 lista_idade_ano_que_vem = [(ida + 1) for ida in lista_idade]
 print(lista_idade_ano_que_vem)
+print()
 
+idade_lista = [(ida) for ida in lista_idade if ida > 21 and ida < 60]
+print(idade_lista)
