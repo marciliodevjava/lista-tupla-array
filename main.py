@@ -63,3 +63,14 @@ print()
 
 idade_lista = [(ida) for ida in lista_idade if ida > 21 and ida < 60]
 print(idade_lista)
+
+
+def tamanho_da_lista(lista=None):
+    if lista == None:
+        lista = list()
+
+    print("Tamanho", len(lista))
+    return ""
+
+
+print(tamanho_da_lista(idade_lista))
