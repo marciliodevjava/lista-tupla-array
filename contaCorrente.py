@@ -64,3 +64,10 @@ print("Contas depositadas")
 for con in conta_list:
     print(con)
     print("Conta depositada")
+
+
+guilherme = ('Guilherme', 21, 36)
+daniela = ('Daniela', 22, 26)
+pedro = ('Pedro', 23, 59)
+
+
