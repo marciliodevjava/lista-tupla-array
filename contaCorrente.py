@@ -30,7 +30,6 @@ class ContaCorrente:
             conta.deposita(50)
 
 
-
 conta = ContaCorrente(1)
 conta1 = ContaCorrente(2)
 conta.deposita(100)
@@ -65,4 +64,3 @@ print("Contas depositadas")
 for con in conta_list:
     print(con)
     print("Conta depositada")
-
