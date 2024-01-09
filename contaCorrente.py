@@ -25,6 +25,10 @@ class ContaCorrente:
         else:
             print(f'Não foi possivel realizar o deposito')
 
+    def deposita_todas_contas(contas):
+        for conta in contas:
+            conta.deposita(50)
+
 
 
 conta = ContaCorrente(1)
@@ -37,3 +41,28 @@ print(conta)
 conta.transferir(conta1, 50)
 print(conta)
 print(conta1)
+
+print()
+conta_sady = ContaCorrente(256)
+conta_sady.deposita(100)
+print(conta_sady)
+conta_sady.transferir(conta1, 25)
+print(conta_sady)
+print()
+
+print(conta1)
+print()
+
+conta_list = [conta, conta1, conta_sady]
+print("Lista conta")
+print(conta_list[0])
+
+list = ContaCorrente
+list.deposita_todas_contas(conta_list)
+
+print("Contas depositadas")
+
+for con in conta_list:
+    print(con)
+    print("Conta depositada")
+
